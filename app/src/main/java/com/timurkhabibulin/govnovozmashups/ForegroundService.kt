@@ -23,7 +23,7 @@ class ForegroundService : Service() {
 
     override fun onCreate() {
         super.onCreate()
-        mediaPlayer = MediaPlayer.create(this, R.raw.govnovoz)
+        mediaPlayer = MediaPlayer.create(this, R.raw.govnovozz)
         mediaPlayer.setNextMediaPlayer(MediaPlayer.create(this, R.raw.govnovoz_2))
         mediaPlayer.setNextMediaPlayer(MediaPlayer.create(this, R.raw.govnovoz_1))
         mediaPlayer.isLooping = true
